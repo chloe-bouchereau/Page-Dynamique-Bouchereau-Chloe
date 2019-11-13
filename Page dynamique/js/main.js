@@ -56,11 +56,26 @@ window.onscroll = function(){
         document.getElementById("barre-nav").classList.remove("fade-out");
         console.log('hello2');
     }
+    /* Animation image + titres */ 
 
-};
+    if(scroll >= 150){
+        document.getElementById("anim").classList.remove("fade-out");
+        document.getElementById("anim").classList.add("fade-in");
+        document.getElementById("anim2").classList.remove("fade-out");
+        document.getElementById("anim2").classList.add("fade-in");
+        document.getElementById("anim3").classList.remove("fade-out");
+        document.getElementById("anim3").classList.add("fade-in");
+    }
+    else{
+        document.getElementById("anim").classList.add("fade-out");
+        document.getElementById("anim2").classList.add("fade-out");
+        document.getElementById("anim3").classList.add("fade-out");
+}};
 
 /* Animation appartion Titre*/ 
 
 document.getElementById("Hello").classList.add("fade-in");
+
+/* Animation Titre dynamique*/ 
 
 

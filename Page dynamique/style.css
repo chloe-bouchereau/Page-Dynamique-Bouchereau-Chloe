@@ -59,7 +59,6 @@ ul {
 #menu{
     margin-top: 4%;
     margin-left: 5%;
-    cursor: pointer;
     display: block;
     width: 50%;
     z-index: 1;
@@ -167,20 +166,36 @@ li a, #dropbutton{
     .fade-out{
         animation: fade-out 3s;
     }
-    #titre{
+    h1{
         text-align: center;
         color: white;
     }
-    #sous-titre{
+    h2{
         text-align: center;
         color: white;
     }
-    .image{
+    #anim{
+        display:block;
+        
+    }
+    img{
         width: 40%;
         height: 50%;
         display:block;
         margin-left: auto;
         margin-right: auto;
+    }
+    #titre{
+        margin-top: 10%;
+        font-size: 60px;
+        animation: fade-out 2s;
+        animation-iteration-count: infinite;
+    }
+    #titre2{
+        text-align: center;
+        font-size: 60px;
+        animation: fade-in 2s;
+        animation-iteration-count: infinite;
     }
 
 }
@@ -227,6 +242,7 @@ li a, #dropbutton{
         height: 500px;
         background: red;
         border: solid ;
+        display: block;
         margin-right: auto;
         margin-left: auto;
         
@@ -235,32 +251,49 @@ li a, #dropbutton{
         margin-left: 198px;
     }
     #Hello{
-        padding-top: 20%;
+        padding-top: 10%;
         text-align: center;
         color: white;
+        font-size: 90px;;
     }
     .fade-in{
         text-align: center;
         color: white;
         animation: fade-in 2s;
+        display: block;
     }
     .fade-out{
         animation: fade-out 3s;
     }
-    #titre{
+    h1{
         text-align: center;
         color: white;
     }
-    #sous-titre{
+    h2{
         text-align: center;
         color: white;
     }
-    .image{
-        width: 50%;
-        height: 60%;
+    #anim{
+        display: block;
+    }
+    img{
+        width: 40%;
+        height: 50%;
         display:block;
         margin-left: auto;
         margin-right: auto;
+    }
+    #titre{
+        margin-top: 10%;
+        font-size: 90px;
+        animation: fade-out 2s;
+        animation-iteration-count: infinite;
+    }
+    #titre2{
+        text-align: center;
+        font-size: 90px;
+        animation: fade-in 2s;
+        animation-iteration-count: infinite;
     }
 }
 
